@@ -2,13 +2,13 @@ import pandas as pd
 import os
 
 # Change to the parent directory
-os.chdir('..')
+# os.chdir('..')
 
 def load_data():
     """
     Load the dataset from a specified path and return a DataFrame.
     """
-    file_path = 'data/raw/MachineLearningRating_v3.txt'  # Updated path as `os.chdir` already changes the working directory
+    file_path = '../data/raw/MachineLearningRating_v3.txt'  # Updated path as `os.chdir` already changes the working directory
 
     try:
         # Load the dataset with delimiter '|'
@@ -16,7 +16,7 @@ def load_data():
         
         # Display the first few rows of the DataFrame (optional for debugging)
         print("Dataset loaded successfully. Preview:")
-        print(df.head())
+        # print(df.head())
         
         return df
 
