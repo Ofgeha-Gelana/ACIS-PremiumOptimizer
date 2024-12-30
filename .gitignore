@@ -1,13 +1,2 @@
 .venv
 data
-/MachineLearningRating_v3.txt
-
-*.csv
-*.txt
-*.h5
-*.model
-*.log
-
-# Ignore DVC files
-*.dvc
-.cache/
